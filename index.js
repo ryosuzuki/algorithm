@@ -12,10 +12,10 @@ const test = _.clone(array).sort((a, b) => {
 
 const bubbleSort = require('./src/bubble-sort')
 const selectionSort = require('./src/selection-sort')
-const insertSort = require('./src/insert-sort')
+const insertionSort = require('./src/insertion-sort')
 const mergeSort = require('./src/merge-sort')
 
-const result = mergeSort(array)
+const result = insertionSort(array)
 console.log(result)
 console.log(test)
 console.log(_.isEqual(result, test))

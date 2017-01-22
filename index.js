@@ -10,11 +10,10 @@ const test = _.clone(array).sort((a, b) => {
   return a - b
 })
 
-
-const bubbleSort = require('./bubble-sort')
-const selectionSort = require('./selection-sort')
-const insertSort = require('./insert-sort')
-const mergeSort = require('./merge-sort')
+const bubbleSort = require('./src/bubble-sort')
+const selectionSort = require('./src/selection-sort')
+const insertSort = require('./src/insert-sort')
+const mergeSort = require('./src/merge-sort')
 
 const result = mergeSort(array)
 console.log(result)
